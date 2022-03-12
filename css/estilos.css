@@ -1,3 +1,7 @@
+.navbar-dark, .bg-dark {
+background: green!important;
+opacity: 0.7;
+}
 .caja{
     
     margin:0 auto;
@@ -5,8 +9,10 @@
 }
 
 .capafondo{
-    background: url("FONDO.jpg");
+    background: url("FONDO.jpg") no-repeat;
+    background-size: cover;
     height: 100%;
+    opacity: 0.4;
     position: fixed;
     width: 100%;
     z-index: -1;
@@ -17,4 +23,9 @@
     box-shadow:0 0 0.5em rgba(0, 0, 0, 0.8);
     cursor: pointer;
 
+}
+
+.espacio{
+    height: 10%;
+    margin-top: 10%;
 }
